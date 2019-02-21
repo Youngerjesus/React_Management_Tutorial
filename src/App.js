@@ -2,24 +2,15 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// main 자바스크립트 body내용을 다루는 부분 
+// 화면 내용출력을 담당하는 부분
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="grey-background ">
+        <img src ={logo} lat = "logo"/>
+        <h2> develope management program </h2>
+
       </div>
     );
   }
